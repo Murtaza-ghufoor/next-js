@@ -8,7 +8,7 @@ const getData = async () => {
      else {
       throw new Error("Failed to fetch data");
     }
-  };
+  }
   
   export default async function Page() {
     const quote = await getData();

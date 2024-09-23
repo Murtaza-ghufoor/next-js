@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -6,8 +6,8 @@ export default function Home() {
   
   <h1>A blog Website </h1>
 
-
-  
+<div>static Rendring</div>
+<div>Dynamic Rendring</div>
     </div>
   );
 }
